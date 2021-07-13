@@ -14,6 +14,7 @@ export const heroesData = [
         surerPowers: '​solar energy absorption and healing factor, solar flare and heat vision,\
            solar invulnerability, flight...',
         catchPhrase: '“Look, up in the sky, it\'s a bird, it\'s a plane, it\'s Superman!”',
+        category: 'heroes',
         image: superman
     },
     {
@@ -24,6 +25,7 @@ export const heroesData = [
         surerPowers: 'Can drink 2 liters of beer in 1 hour, can spit 3.5 meters\
              in length and 2 meters in height.',
         catchPhrase: 'Loves his bathroom ducklings',
+        category: 'heroes',
         image: batman
     },
     {
@@ -34,6 +36,7 @@ export const heroesData = [
         surerPowers: 'Can strike a giant with a sword, fight\
              with twenty opponents at the same time',
         catchPhrase: 'Killed from a banal wound in the heel',
+        category: 'heroes',
         image: ahil
     },
     {
@@ -45,6 +48,7 @@ export const heroesData = [
             buildings and shoot accurately, also,\
             if desired, he can dunk the president)',
         catchPhrase: 'Dangerous dude, you won\'t say anything',
+        category: 'actors',
         image: born
     },
     {
@@ -54,6 +58,7 @@ export const heroesData = [
              sent to the past for dark deeds',
         surerPowers: 'Not vulnerable to bullets and knives, not afraid of death.',
         catchPhrase: 'I\'ll be back!!!',
+        category: 'heroes',
         image: terminator
     }
 ]
