@@ -2,7 +2,8 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 
- const navigationItem = ({ clicked, style, linkType, link, exact, children }) => (
+const NavigationItem = ({ clicked, style, linkType, link, exact, children }) => {
+  return (
     <li
       style={{ alignSelf: 'flex-start' }}
       className="nav-link-wrapper">
@@ -16,5 +17,5 @@ import { NavLink } from 'react-router-dom';
       </NavLink>
     </li>
   );
-
-export default navigationItem;
+}
+export default NavigationItem;
